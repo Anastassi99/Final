@@ -1,0 +1,221 @@
+/** @format */
+
+body {
+  font-family: "Dancing Script", cursive;
+  margin-bottom: 50px;
+}
+
+body a {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-decoration: none;
+  padding: 0 15px;
+  color: black;
+  border-right: 1px solid #f5e5e5;
+  -moz-transition: all 0.3s 0.01s ease;
+  -o-transition: all 0.3s 0.01s ease;
+  -webkit-transition: all 0.3s 0.01s ease;
+}
+
+.change_lang {
+  list-style: none;
+  background: none;
+  margin: 0;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  height: 20px;
+}
+
+.header {
+  margin-top: 20px;
+  height: 150px;
+  width: auto;
+  background-image: url(https://img.wallpapersafari.com/desktop/800/450/40/57/GSZUKg.jpg);
+}
+
+#name {
+  font-size: 50px;
+  padding-left: 20%;
+}
+
+#tittle {
+  font-size: 40px;
+  padding-left: 10%;
+}
+
+.menu-buttons {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  margin-top: 25px;
+  height: 40px;
+  background-color: blanchedalmond;
+}
+#buttons-a {
+  text-decoration: none;
+  background: blanchedalmond;
+  color: black;
+  padding: 10px 65px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 20px;
+  border-right: 1px solid #f5e5e5;
+  -moz-transition: all 0.3s 0.01s ease;
+  -o-transition: all 0.3s 0.01s ease;
+  -webkit-transition: all 0.3s 0.01s ease;
+}
+a:hover {
+  background: rgb(223, 205, 177);
+}
+li {
+  float: left;
+}
+
+.sidebar {
+  margin-top: 10px;
+  margin-left: 50px;
+  height: 500px;
+  width: 90%;
+  background-color: blanchedalmond;
+}
+
+.container {
+  margin: auto;
+  background-image: url(https://img.wallpapersafari.com/desktop/800/450/40/57/GSZUKg.jpg);
+}
+
+#image {
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+#info {
+  font-size: 22px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: lightgray;
+  text-align: center;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+.contacts {
+  display: inline-block;
+  margin: 150px;
+  padding: 50px;
+  background-color: lightgray;
+}
+
+#cont_img {
+  display: flex;
+  float: right;
+  padding: 150px;
+}
+
+.quote {
+  margin: 150px;
+  float: right;
+}
+
+.quote q {
+  font-size: 20px;
+  float: left;
+}
+
+.experience {
+  background-color: blanchedalmond;
+  margin: 90px;
+}
+
+#empty {
+  margin: 600px;
+  background-color: blanchedalmond;
+}
+
+.projects {
+  background-color: blanchedalmond;
+  margin: 40px;
+  margin-bottom: 300px;
+  padding: 50px;
+}
+
+#text {
+  font-size: 25px;
+  text-align: center;
+}
+
+.articles {
+  color: gray;
+}
+
+#experience-list {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 18px;
+  margin: 15px;
+  padding: 5px;
+  padding-top: 15px;
+}
+
+@media screen and (max-width: 1200px) {
+  .header {
+    width: 1200px;
+  }
+
+  .menu-buttons {
+    width: 1200px;
+  }
+
+  .container {
+    position: relative;
+    width: 1200px;
+  }
+
+  .experience {
+    width: 900px;
+  }
+
+  .projects {
+    width: 900px;
+  }
+
+  #quote {
+    font-size: 22px;
+    text-align: center;
+    margin-left: 50%;
+  }
+
+  #quote-img {
+    width: 350px;
+    height: auto;
+    margin-left: 50%;
+  }
+
+  #cont_img {
+    width: 400px;
+    height: auto;
+    position: absolute;
+  }
+
+  .contacts {
+    width: 400px;
+  }
+
+  .footer {
+    position: fixed;
+  }
+
+  @media screen and (max-width: 900px) {
+    .close {
+      font-size: 80px;
+    }
+  }
+}
